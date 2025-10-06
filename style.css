@@ -1,0 +1,98 @@
+/* === TEMA KLASIK & PROFESIONAL (Toner Bumi) DENGAN FONT ROBOTO === */
+body {
+    /* UBAH BARIS DI BAWAH INI */
+    font-family: 'Roboto', sans-serif; 
+    
+    background-color: #F8F9FA; /* Abu-abu sangat muda */
+    color: #333; /* Warna teks utama tetap gelap */
+    margin: 0;
+    padding: 0;
+    line-height: 1.75; /* Jarak antar baris lebih lega */
+    font-size: 17px;    /* Ukuran teks utama */
+}
+
+/* === Header === */
+header {
+    background-color: #2A6A4E; /* Hijau Gelap Institusional */
+    color: white; /* Teks di header jadi putih */
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 3px solid #1F513C;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+header p {
+    font-style: italic;
+    color: #DDDDDD; 
+}
+
+/* === Main Container (.artikel-container) === */
+main {
+    max-width: 850px;
+    background: white; /* Putih bersih */
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* === Judul Section (H2) === */
+h2 {
+    color: #2A6A4E; /* Hijau gelap untuk judul */
+    border-bottom: 2px solid #D4AF37; 
+    padding-bottom: 5px;
+    font-size: 2em;
+}
+
+/* Tambahkan ini untuk Subjudul H3 */
+h3 {
+    color: #2A6A4E;
+    font-size: 1.5em; 
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* === Daftar Artikel (Jika ada di halaman utama) === */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 15px 0;
+    background: #F0F5F2; 
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+ul li:hover {
+    background: #E0E5E2; 
+}
+
+a {
+    text-decoration: none;
+    color: #2A6A4E; /* Link berwarna hijau gelap */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1F513C;
+    text-decoration: underline;
+}
+
+/* === Footer === */
+footer {
+    text-align: center;
+    background-color: #343A40; /* Abu-abu gelap */
+    color: #F8F9FA; 
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 40px;
+    border-top: 3px solid #2C3034;
+}
